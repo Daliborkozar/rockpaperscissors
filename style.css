@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header > h1 {
+    text-align: center;
+    color: #24272E;
+    font-family: Asap, sans-serif;
+    padding: 20px 0;
+}
+
+.score-board {
+    border: 3px solid white;
+    width: 250px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    font-family: Asap, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.badge {
+    background: #c93424;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px 10px;
+    font-family: Asap,sans-serif;
+}
+
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comp-label{
+    position: absolute;
+    top: 30px;
+    right: -31px;
+}
+
